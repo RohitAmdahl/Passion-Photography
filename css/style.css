@@ -70,14 +70,17 @@ h2 {
   color: var(--white);
   font-style: italic;
   float: right;
-  max-width: 550px;
-  padding-top: 80px;
+  padding-top: 73px;
   margin-right: 100px;
+  max-width: 350px;
 }
 
 .logo-picture {
   float: right;
   padding-top: 150px;
+  position: relative;
+  padding-top: 184px;
+  left: 150px;
 }
 
 .cta-2 {
@@ -89,6 +92,7 @@ h2 {
   position: absolute;
   left: 70rem;
   bottom: 10px;
+  margin-right: 100px;
   text-shadow: -1px 2px 2px var(--black);
   transition: ease-in-out 1000ms;
 }
