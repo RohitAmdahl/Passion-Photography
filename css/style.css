@@ -49,7 +49,7 @@ li a {
   text-shadow: -1px 2px 2px var(--black);
   transition: ease-in-out 2500ms;
 }
-.cta-1:hover {
+.cta-1 .cta-2:hover {
   background-color: var(--black);
 }
 
@@ -71,6 +71,19 @@ h2 {
   max-width: 550px;
   padding-top: 80px;
 }
+
 .logo-picture {
-  position: inherit;
+  float: right;
+  padding-top: 150px;
+}
+
+.cta-2 {
+  background-color: var(--blue-backgrond);
+  color: var(--white);
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  position: absolute;
+  left: 76rem;
+  bottom: 32px;
 }
