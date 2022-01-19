@@ -49,7 +49,7 @@ li a {
   border-radius: 10px;
   text-shadow: -1px 2px 2px var(--black);
   box-shadow: -1px 2px 10px var(--black-grey);
-  transition: ease-in-out 1000ms;
+  transition: ease-in-out 1s;
 }
 .cta-1:hover {
   background-color: var(--black-grey);
@@ -94,7 +94,7 @@ h2 {
   bottom: 50px;
   margin-right: 100px;
   text-shadow: -1px 2px 2px var(--black);
-  transition: ease-in-out 1000ms;
+  transition: ease-in-out 1s;
 }
 .cta-2:hover:hover {
   background-color: var(--black-grey);
