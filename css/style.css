@@ -45,11 +45,9 @@ li a {
   background-color: var(--black);
 }
 
-header {
+main {
   background-image: url(../welcome\ picture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
-  width: 100%;
-  background-position-x: center;
+  height: 100vh;
 }
