@@ -49,8 +49,7 @@ header {
   background-image: url(../welcome\ picture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 60vh;
+  width: 100%;
   background-position-x: center;
-  background-position-y: bottom;
-  margin: 0;
 }
