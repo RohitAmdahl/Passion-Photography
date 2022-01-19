@@ -2,6 +2,7 @@
   --blue-backgrond: #7b66fb;
   --yellow: #fff500;
   --black: #000000;
+  --black-grey: #757272;
   --white: #ffffff;
 }
 
@@ -47,10 +48,11 @@ li a {
   text-decoration: none;
   border-radius: 10px;
   text-shadow: -1px 2px 2px var(--black);
-  transition: ease-in-out 2500ms;
+  box-shadow: -1px 2px 10px var(--black-grey);
+  transition: ease-in-out 1000ms;
 }
-.cta-1 .cta-2:hover {
-  background-color: var(--black);
+.cta-1:hover {
+  background-color: var(--black-grey);
 }
 
 h1 {
@@ -86,4 +88,9 @@ h2 {
   position: absolute;
   left: 76rem;
   bottom: 32px;
+  text-shadow: -1px 2px 2px var(--black);
+  transition: ease-in-out 1000ms;
+}
+.cta-2:hover:hover {
+  background-color: var(--black-grey);
 }
