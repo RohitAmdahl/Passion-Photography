@@ -37,7 +37,7 @@ ul li {
 li a {
   text-decoration: none;
   padding: 30px;
-  font-size: 1.5rem;
+  font-size: 1.6em;
 }
 .cta-1 {
   background-color: var(--blue-backgrond);
@@ -46,6 +46,8 @@ li a {
   font-size: 1.1em;
   text-decoration: none;
   border-radius: 10px;
+  text-shadow: -1px 2px 2px var(--black);
+  transition: ease-in-out 2500ms;
 }
 .cta-1:hover {
   background-color: var(--black);
@@ -56,13 +58,19 @@ h1 {
   font-family: "Kaushan Script", cursive;
   color: var(--yellow);
   text-align: center;
-  padding-top: 150px;
   text-shadow: -1px 2px 2px var(--black);
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: "Poppins", sans-serif;
   text-align: center;
   color: var(--white);
+  font-style: italic;
+  float: right;
+  max-width: 550px;
+  padding-top: 80px;
+}
+.logo-picture {
+  position: inherit;
 }
