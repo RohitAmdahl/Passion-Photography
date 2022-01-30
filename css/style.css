@@ -33,6 +33,7 @@ ul li {
   padding-right: 50px;
   font-weight: bold;
   color: var(--white);
+  font-size: 22px;
 }
 
 li a {
@@ -49,30 +50,21 @@ li a {
   border-radius: 10px;
   text-shadow: -1px 2px 2px var(--black);
   box-shadow: -1px 2px 10px var(--black-grey);
-  transition: ease-in-out 1s;
-}
-.cta-1:hover {
-  background-color: var(--black-grey);
 }
 
 h1 {
-  font-size: 6em;
+  font-size: 6rem;
   font-family: "Kaushan Script", cursive;
   color: var(--yellow);
   text-align: center;
   text-shadow: -1px 2px 2px var(--black);
 }
-
 h2 {
-  font-size: 1.5em;
-  font-family: "Poppins", sans-serif;
-  text-align: right;
+  box-sizing: border-box;
+  max-width: 350px;
   color: var(--white);
-  font-style: italic;
-  padding-top: 73px;
+  margin-top: 100px;
   margin-right: 100px;
-  max-width: 420px;
-  height: 125px;
 }
 
 .ring-1 {
@@ -87,9 +79,4 @@ h2 {
   border-radius: 8px;
   margin-left: 250px;
   text-shadow: -1px 2px 2px var(--black);
-  transition: ease-in-out 1s;
-}
-
-.cta-2:hover:hover {
-  background-color: var(--black-grey);
 }
