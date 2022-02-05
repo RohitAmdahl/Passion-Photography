@@ -23,58 +23,50 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-header {
-  background-color: var(--black);
+  background-color: #000000;
 }
 
 .logo {
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   margin: 20px 0px;
 }
 
 .logo_1 {
-  max-width: 50px;
+  max-width: 53px;
+  align-items: center;
 }
 
 .nav {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-nav a {
+ul a {
+  text-decoration: none;
   color: #ffffff;
   font-family: "Merriweather", serif;
   font-size: 16px;
   padding: 5px;
 }
-nav ul a {
-  text-decoration: none;
-}
-.item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 h1 {
   font-size: 35px;
   font-family: Satisfy;
-  color: #fff500;
-  padding: 50px 0px;
+  color: var(--yellow);
+  margin-top: 80px;
 }
 
-p {
+h2 {
   box-sizing: border-box;
   max-width: 236px;
   font-family: "Merriweather", serif;
   align-items: center;
   font-size: 18px;
   text-align: center;
-  color: #ffffff;
+  color: var(--yellow);
   font-weight: 700;
 }
 
@@ -85,22 +77,39 @@ p {
   font-family: "Merriweather", serif;
   margin-top: 50px;
 }
-section {
+
+.background {
   background-image: url(/welcome\ picture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
 
-@media (min-width: 600px) {
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
 }
 
-@media (min-width: 1020px) {
-  .nav {
-    flex-direction: inherit;
-    justify-content: space-around;
-    height: 80px;
-  }
-  nav ul a {
-    padding: 10px;
-  }
+.profile_img {
+  max-width: 300px;
+  margin-top: 15px;
+}
+
+.center {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+p {
+  color: var(--white);
+  font-family: "Merriweather", serif;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 auto;
 }
