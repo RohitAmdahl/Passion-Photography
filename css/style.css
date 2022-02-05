@@ -158,6 +158,7 @@ form {
 
 #name {
   padding-right: 100px;
+  padding-top: 10px;
 }
 
 .sosial_media {
@@ -165,4 +166,23 @@ form {
   background-color: #7b66fb;
   padding: 5px;
   position: relative;
+}
+
+@media (max-width: 430px) {
+  h1,
+  h2 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+  .cta {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 50px;
+  }
+  ul a {
+    font-size: 18px;
+  }
 }
