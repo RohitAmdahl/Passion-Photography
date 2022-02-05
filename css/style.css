@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
 :root {
   --blue-backgrond: #7b66fb;
   --yellow: #fff500;
@@ -5,75 +8,77 @@
   --black-grey: #757272;
   --white: #ffffff;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
 
 body {
-  font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Satisfy", cursiven, Verdana, Geneva, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .logo {
-  width: 100%;
-  max-width: 150px;
-  max-height: 50px;
+  max-width: 200px;
+}
+.logo_1 {
+  max-width: 50px;
 }
 
 .nav {
   display: flex;
-  justify-content: space-around;
-  background-image: url(../welcome\ picture.jpg);
-  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+}
+
+nav a {
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+}
+nav ul a {
+  text-decoration: none;
+  padding: 20px 5px;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Satisfy;
+  color: #fff500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+header {
+  background: url(/welcome\ picture.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
 }
-
-nav li {
-  display: inline-block;
-}
-
-li a {
-  text-decoration: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: var(--black);
-  font-weight: bold;
-}
-
-.explore-1 {
-  font-size: 8em;
-  color: var(--yellow);
-  font-family: Pristina, cursive, sans-serif;
-}
-
-h2 {
-  color: var(--white);
+p {
   box-sizing: border-box;
-  width: 340px;
-  margin: 0;
+  font-family: "Merriweather", serif;
+  max-width: 200px;
+  font-size: 16px;
   font-style: italic;
-  font-size: 1.5emem;
+  color: white;
 }
-
-.logo-picture {
-  width: 100%;
-  max-width: 20px;
+.btn {
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  padding: 10px;
+  background-color: #7b66fb;
 }
-
-.wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.ring-1 {
-  position: relative;
-  left: 350px;
-}
-
-form {
-  display: none;
-}
-
 /*----------about page-------------'*/
