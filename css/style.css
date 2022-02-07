@@ -141,6 +141,7 @@ p {
   text-align: center;
   margin: 0 auto;
   margin-top: 20px;
+  color: white;
 }
 span {
   color: #14ff00;
@@ -168,7 +169,7 @@ form {
   position: relative;
 }
 
-@media (max-width: 430px) {
+@media screen and (min-width: 430px) {
   h1,
   h2 {
     font-size: 45px;
@@ -182,6 +183,23 @@ form {
     font-size: 18px;
     padding: 20px 50px;
   }
+  ul a {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 780px) {
+  h1,
+  h2 {
+    font-size: 78px;
+  }
+  .nav {
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
   ul a {
     font-size: 18px;
   }
