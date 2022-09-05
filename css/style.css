@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 :root {
-  --blue-backgrond: #7b66fb;
+  --blue-background: #7b66fb;
   --yellow: #fff500;
   --black: #000000;
   --black-grey: #757272;
@@ -71,14 +71,14 @@ h2 {
 }
 
 .cta {
-  background: var(--blue-backgrond);
+  background: var(--blue-background);
   color: var(--white);
   padding: 8px 50px;
   font-family: "Merriweather", serif;
   margin-top: 50px;
 }
 .cta-1 {
-  background: var(--blue-backgrond);
+  background: var(--blue-background);
   color: var(--white);
   padding: 8px 10px;
   font-family: "Merriweather", serif;
